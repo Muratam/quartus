@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/014/a0146027/quartus/simulation/modelsim
+vx16
+I<NKoVDV26kdMaEASROzRS3
+V8DH;ceBhSo4AK4ndPKe[B2
+Z1 d/home/014/a0146027/quartus/simulation/modelsim
+w1464937087
+8x16.vo
+Fx16.vo
+L0 31
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+!i10b 1
+!s100 J>^kIBg[]OHCc3ieEbb=20
+!s85 0
+!s108 1464937308.618971
+!s107 x16.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|x16.vo|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+. -O0
+vx16_vlg_tst
+!i10b 1
+!s100 H^L:Xj7GQM:himd<Ud46^2
+I_K9NBKdO:FKa4O35Qd=nW1
+V4fcg[`W>>PY4bmGZG:0@T0
+R1
+w1464936499
+8/home/014/a0146027/quartus/simulation/modelsim/x16_test1.vt
+F/home/014/a0146027/quartus/simulation/modelsim/x16_test1.vt
+L0 28
+R2
+r1
+!s85 0
+31
+!s108 1464937331.368822
+!s107 /home/014/a0146027/quartus/simulation/modelsim/x16_test1.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/014/a0146027/quartus/simulation/modelsim|-O0|/home/014/a0146027/quartus/simulation/modelsim/x16_test1.vt|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work +incdir+/home/014/a0146027/quartus/simulation/modelsim -O0

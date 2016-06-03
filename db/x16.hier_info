@@ -1,0 +1,44 @@
+|x16
+x16_o0 <= nor7.DB_MAX_OUTPUT_PORT_TYPE
+x16_i0 => and0000.IN0
+x16_i0 => and0001.IN0
+x16_i0 => and0111.IN0
+x16_i0 => inst.IN0
+x16_i0 => and0011.IN0
+x16_i0 => and0010.IN0
+x16_i0 => and0100.IN0
+x16_i0 => and0101.IN0
+x16_i0 => and0110.IN0
+x16_i1 => and0000.IN1
+x16_i1 => and0001.IN1
+x16_i1 => inst4.IN0
+x16_i1 => and0011.IN1
+x16_i1 => and0010.IN1
+x16_i1 => and1001.IN1
+x16_i1 => and1010.IN1
+x16_i1 => and1011.IN1
+x16_i2 => and0000.IN2
+x16_i2 => and0001.IN2
+x16_i2 => inst5.IN0
+x16_i2 => and1100.IN2
+x16_i2 => and1101.IN2
+x16_i2 => and0100.IN2
+x16_i2 => and0101.IN2
+x16_i2 => and1001.IN2
+x16_i3 => and0000.IN3
+x16_i3 => inst7.IN0
+x16_i3 => and1100.IN3
+x16_i3 => and0010.IN3
+x16_i3 => and0100.IN3
+x16_i3 => and1010.IN3
+x16_i3 => and1110.IN3
+x16_i3 => and0110.IN3
+x16_o1 <= nor7.DB_MAX_OUTPUT_PORT_TYPE
+x16_o2 <= nor1.DB_MAX_OUTPUT_PORT_TYPE
+x16_o3 <= nor2.DB_MAX_OUTPUT_PORT_TYPE
+x16_o4 <= nor3.DB_MAX_OUTPUT_PORT_TYPE
+x16_o5 <= nor4.DB_MAX_OUTPUT_PORT_TYPE
+x16_o6 <= nor5.DB_MAX_OUTPUT_PORT_TYPE
+x16_o7 <= nor6.DB_MAX_OUTPUT_PORT_TYPE
+
+

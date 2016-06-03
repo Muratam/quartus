@@ -1,0 +1,263 @@
+TimeQuest Timing Analyzer report for x16
+Fri Jun  3 18:55:21 2016
+Quartus II 32-bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. TimeQuest Timing Analyzer Summary
+  3. Parallel Compilation
+  4. Clocks
+  5. Fmax Summary
+  6. Setup Summary
+  7. Hold Summary
+  8. Recovery Summary
+  9. Removal Summary
+ 10. Minimum Pulse Width Summary
+ 11. Propagation Delay
+ 12. Minimum Propagation Delay
+ 13. Clock Transfers
+ 14. Report TCCS
+ 15. Report RSKM
+ 16. Unconstrained Paths
+ 17. TimeQuest Timing Analyzer Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-----------------------------------------------------------------------------------------+
+; TimeQuest Timing Analyzer Summary                                                       ;
++--------------------+--------------------------------------------------------------------+
+; Quartus II Version ; Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version ;
+; Revision Name      ; x16                                                                ;
+; Device Family      ; Cyclone                                                            ;
+; Device Name        ; EP1C6Q240C8                                                        ;
+; Timing Models      ; Final                                                              ;
+; Delay Model        ; Slow Model                                                         ;
+; Rise/Fall Delays   ; Unavailable                                                        ;
++--------------------+--------------------------------------------------------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 2           ;
+; Maximum allowed            ; 2           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 1           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
+;     Processor 2            ;   0.0%      ;
++----------------------------+-------------+
+
+
+----------
+; Clocks ;
+----------
+No clocks to report.
+
+
+----------------
+; Fmax Summary ;
+----------------
+No paths to report.
+
+
+-----------------
+; Setup Summary ;
+-----------------
+No paths to report.
+
+
+----------------
+; Hold Summary ;
+----------------
+No paths to report.
+
+
+--------------------
+; Recovery Summary ;
+--------------------
+No paths to report.
+
+
+-------------------
+; Removal Summary ;
+-------------------
+No paths to report.
+
+
+-------------------------------
+; Minimum Pulse Width Summary ;
+-------------------------------
+No paths to report.
+
+
++------------------------------------------------------+
+; Propagation Delay                                    ;
++------------+-------------+--------+----+----+--------+
+; Input Port ; Output Port ; RR     ; RF ; FR ; FF     ;
++------------+-------------+--------+----+----+--------+
+; x16_i0     ; x16_o0      ; 15.374 ;    ;    ; 15.374 ;
+; x16_i0     ; x16_o1      ; 15.372 ;    ;    ; 15.372 ;
+; x16_i0     ; x16_o2      ; 15.352 ;    ;    ; 15.352 ;
+; x16_i0     ; x16_o3      ; 14.901 ;    ;    ; 14.901 ;
+; x16_i0     ; x16_o4      ; 14.909 ;    ;    ; 14.909 ;
+; x16_i0     ; x16_o5      ; 15.292 ;    ;    ; 15.292 ;
+; x16_i0     ; x16_o6      ; 15.292 ;    ;    ; 15.292 ;
+; x16_i0     ; x16_o7      ; 15.295 ;    ;    ; 15.295 ;
+; x16_i1     ; x16_o0      ; 15.256 ;    ;    ; 15.256 ;
+; x16_i1     ; x16_o1      ; 15.254 ;    ;    ; 15.254 ;
+; x16_i1     ; x16_o2      ; 15.235 ;    ;    ; 15.235 ;
+; x16_i1     ; x16_o3      ; 14.787 ;    ;    ; 14.787 ;
+; x16_i1     ; x16_o4      ; 14.791 ;    ;    ; 14.791 ;
+; x16_i1     ; x16_o5      ; 15.183 ;    ;    ; 15.183 ;
+; x16_i1     ; x16_o6      ; 15.175 ;    ;    ; 15.175 ;
+; x16_i1     ; x16_o7      ; 15.175 ;    ;    ; 15.175 ;
+; x16_i2     ; x16_o0      ; 15.321 ;    ;    ; 15.321 ;
+; x16_i2     ; x16_o1      ; 15.319 ;    ;    ; 15.319 ;
+; x16_i2     ; x16_o2      ; 15.299 ;    ;    ; 15.299 ;
+; x16_i2     ; x16_o3      ; 14.846 ;    ;    ; 14.846 ;
+; x16_i2     ; x16_o4      ; 14.853 ;    ;    ; 14.853 ;
+; x16_i2     ; x16_o5      ; 15.239 ;    ;    ; 15.239 ;
+; x16_i2     ; x16_o6      ; 15.239 ;    ;    ; 15.239 ;
+; x16_i2     ; x16_o7      ; 15.238 ;    ;    ; 15.238 ;
+; x16_i3     ; x16_o0      ; 14.737 ;    ;    ; 14.737 ;
+; x16_i3     ; x16_o1      ; 14.735 ;    ;    ; 14.735 ;
+; x16_i3     ; x16_o2      ; 14.716 ;    ;    ; 14.716 ;
+; x16_i3     ; x16_o3      ; 14.264 ;    ;    ; 14.264 ;
+; x16_i3     ; x16_o4      ; 14.272 ;    ;    ; 14.272 ;
+; x16_i3     ; x16_o5      ; 14.652 ;    ;    ; 14.652 ;
+; x16_i3     ; x16_o6      ; 14.656 ;    ;    ; 14.656 ;
+; x16_i3     ; x16_o7      ; 14.656 ;    ;    ; 14.656 ;
++------------+-------------+--------+----+----+--------+
+
+
++------------------------------------------------------+
+; Minimum Propagation Delay                            ;
++------------+-------------+--------+----+----+--------+
+; Input Port ; Output Port ; RR     ; RF ; FR ; FF     ;
++------------+-------------+--------+----+----+--------+
+; x16_i0     ; x16_o0      ; 15.374 ;    ;    ; 15.374 ;
+; x16_i0     ; x16_o1      ; 15.372 ;    ;    ; 15.372 ;
+; x16_i0     ; x16_o2      ; 15.352 ;    ;    ; 15.352 ;
+; x16_i0     ; x16_o3      ; 14.901 ;    ;    ; 14.901 ;
+; x16_i0     ; x16_o4      ; 14.909 ;    ;    ; 14.909 ;
+; x16_i0     ; x16_o5      ; 15.292 ;    ;    ; 15.292 ;
+; x16_i0     ; x16_o6      ; 15.292 ;    ;    ; 15.292 ;
+; x16_i0     ; x16_o7      ; 15.295 ;    ;    ; 15.295 ;
+; x16_i1     ; x16_o0      ; 15.256 ;    ;    ; 15.256 ;
+; x16_i1     ; x16_o1      ; 15.254 ;    ;    ; 15.254 ;
+; x16_i1     ; x16_o2      ; 15.235 ;    ;    ; 15.235 ;
+; x16_i1     ; x16_o3      ; 14.787 ;    ;    ; 14.787 ;
+; x16_i1     ; x16_o4      ; 14.791 ;    ;    ; 14.791 ;
+; x16_i1     ; x16_o5      ; 15.183 ;    ;    ; 15.183 ;
+; x16_i1     ; x16_o6      ; 15.175 ;    ;    ; 15.175 ;
+; x16_i1     ; x16_o7      ; 15.175 ;    ;    ; 15.175 ;
+; x16_i2     ; x16_o0      ; 15.321 ;    ;    ; 15.321 ;
+; x16_i2     ; x16_o1      ; 15.319 ;    ;    ; 15.319 ;
+; x16_i2     ; x16_o2      ; 15.299 ;    ;    ; 15.299 ;
+; x16_i2     ; x16_o3      ; 14.846 ;    ;    ; 14.846 ;
+; x16_i2     ; x16_o4      ; 14.853 ;    ;    ; 14.853 ;
+; x16_i2     ; x16_o5      ; 15.239 ;    ;    ; 15.239 ;
+; x16_i2     ; x16_o6      ; 15.239 ;    ;    ; 15.239 ;
+; x16_i2     ; x16_o7      ; 15.238 ;    ;    ; 15.238 ;
+; x16_i3     ; x16_o0      ; 14.737 ;    ;    ; 14.737 ;
+; x16_i3     ; x16_o1      ; 14.735 ;    ;    ; 14.735 ;
+; x16_i3     ; x16_o2      ; 14.716 ;    ;    ; 14.716 ;
+; x16_i3     ; x16_o3      ; 14.264 ;    ;    ; 14.264 ;
+; x16_i3     ; x16_o4      ; 14.272 ;    ;    ; 14.272 ;
+; x16_i3     ; x16_o5      ; 14.652 ;    ;    ; 14.652 ;
+; x16_i3     ; x16_o6      ; 14.656 ;    ;    ; 14.656 ;
+; x16_i3     ; x16_o7      ; 14.656 ;    ;    ; 14.656 ;
++------------+-------------+--------+----+----+--------+
+
+
+-------------------
+; Clock Transfers ;
+-------------------
+Nothing to report.
+
+
+---------------
+; Report TCCS ;
+---------------
+No dedicated SERDES Transmitter circuitry present in device or used in design
+
+
+---------------
+; Report RSKM ;
+---------------
+No dedicated SERDES Receiver circuitry present in device or used in design
+
+
++------------------------------------------------+
+; Unconstrained Paths                            ;
++---------------------------------+-------+------+
+; Property                        ; Setup ; Hold ;
++---------------------------------+-------+------+
+; Illegal Clocks                  ; 0     ; 0    ;
+; Unconstrained Clocks            ; 0     ; 0    ;
+; Unconstrained Input Ports       ; 4     ; 4    ;
+; Unconstrained Input Port Paths  ; 32    ; 32   ;
+; Unconstrained Output Ports      ; 8     ; 8    ;
+; Unconstrained Output Port Paths ; 32    ; 32   ;
++---------------------------------+-------+------+
+
+
++------------------------------------+
+; TimeQuest Timing Analyzer Messages ;
++------------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 32-bit TimeQuest Timing Analyzer
+    Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
+    Info: Processing started: Fri Jun  3 18:55:20 2016
+Info: Command: quartus_sta x16 -c x16
+Info: qsta_default_script.tcl version: #1
+Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
+Critical Warning (332012): Synopsys Design Constraints File file not found: 'x16.sdc'. A Synopsys Design Constraints File is required by the TimeQuest Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
+Info (332142): No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info (332096): The command derive_clocks did not find any clocks to derive.  No clocks were created or changed.
+Warning (332068): No clocks defined in design.
+Info: Found TIMEQUEST_REPORT_SCRIPT_INCLUDE_DEFAULT_ANALYSIS = ON
+Info (332159): No clocks to report
+Info (332140): No fmax paths to report
+Info (332140): No Setup paths to report
+Info (332140): No Hold paths to report
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Info (332140): No Minimum Pulse Width paths to report
+Info (332001): The selected device family is not supported by the report_metastability command.
+Info (332102): Design is not fully constrained for setup requirements
+Info (332102): Design is not fully constrained for hold requirements
+Info: Quartus II 32-bit TimeQuest Timing Analyzer was successful. 0 errors, 2 warnings
+    Info: Peak virtual memory: 294 megabytes
+    Info: Processing ended: Fri Jun  3 18:55:21 2016
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:01
+
+

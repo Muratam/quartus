@@ -1,0 +1,71 @@
+# do x16_run_msim_gate_verilog.do 
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Copying /opt/altera/13.0sp1/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied /opt/altera/13.0sp1/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+. {x16.vo}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module x16
+# 
+# Top level modules:
+# 	x16
+# 
+# vlog -vlog01compat -work work +incdir+/home/014/a0146027/quartus/simulation/modelsim {/home/014/a0146027/quartus/simulation/modelsim/x16_test1.vt}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module x16_vlg_tst
+# 
+# Top level modules:
+# 	x16_vlg_tst
+# 
+# vsim -t 1ps +transport_int_delays +transport_path_delays -L cyclone_ver -L gate_work -L work -voptargs="+acc"  test1
+# vsim +transport_int_delays +transport_path_delays -L cyclone_ver -L gate_work -L work -voptargs=\"+acc\" -t 1ps test1 
+# ** Error: (vsim-3170) Could not find '/home/014/a0146027/quartus/simulation/modelsim/gate_work.test1'.
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./x16_run_msim_gate_verilog.do PAUSED at line 12
+vlog -vlog01compat -work work +incdir+/home/014/a0146027/quartus/simulation/modelsim -O0 /home/014/a0146027/quartus/simulation/modelsim/x16_test1.vt
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module x16_vlg_tst
+# 
+# Top level modules:
+# 	x16_vlg_tst
+run 100ns
+# No Design Loaded!
+run 100 ns
+# No Design Loaded!
+vsim +transport_int_delays +transport_path_delays -L cyclone_ver -L gate_work -L work -voptargs=\"+acc\" -t 1ps gate_work.x16_vlg_tst
+# vsim +transport_int_delays +transport_path_delays -L cyclone_ver -L gate_work -L work -voptargs=\"+acc\" -t 1ps gate_work.x16_vlg_tst 
+# Loading work.x16_vlg_tst
+# Loading work.x16
+# Loading cyclone_ver.cyclone_io
+# Loading cyclone_ver.cyclone_mux21
+# Loading cyclone_ver.cyclone_dffe
+# Loading cyclone_ver.cyclone_asynch_io
+# SDF 10.1d Compiler 2012.11 Nov  2 2012
+# Loading instances from x16_v.sdo
+# Loading cyclone_ver.CYCLONE_PRIM_DFFE
+# Loading timing data from x16_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /x16_vlg_tst File: /home/014/a0146027/quartus/simulation/modelsim/x16_test1.vt
+add wave -position end  sim:/x16_vlg_tst/x16_o7
+add wave -position end  sim:/x16_vlg_tst/x16_o6
+add wave -position end  sim:/x16_vlg_tst/x16_o5
+add wave -position end  sim:/x16_vlg_tst/x16_o4
+add wave -position end  sim:/x16_vlg_tst/x16_o3
+add wave -position end  sim:/x16_vlg_tst/x16_o2
+add wave -position end  sim:/x16_vlg_tst/x16_o1
+add wave -position end  sim:/x16_vlg_tst/x16_o0
+add wave -position end  sim:/x16_vlg_tst/x16_i3
+add wave -position end  sim:/x16_vlg_tst/x16_i2
+add wave -position end  sim:/x16_vlg_tst/x16_i1
+add wave -position end  sim:/x16_vlg_tst/x16_i0
+add wave -position end  sim:/x16_vlg_tst/eachvec
+run 100ns
+# Running testbench
