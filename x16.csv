@@ -1,0 +1,33 @@
+# Copyright (C) 1991-2013 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+
+# Quartus II 32-bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
+# File: /home/014/a0146027/quartus/x16.csv
+# Generated on: Thu Jun  9 13:15:56 2016
+
+# Note: The column header names should not be changed if you wish to import this .csv file into the Quartus II software.
+
+To,Direction,Location,I/O Bank,VREF Group,Fitter Location,I/O Standard,Reserved,Current Strength,Differential Pair
+x16_i0,Input,PIN_2,1,B1_N0,PIN_2,,,,
+x16_i1,Input,PIN_3,1,B1_N0,PIN_3,,,,
+x16_i2,Input,PIN_4,1,B1_N0,PIN_4,,,,
+x16_i3,Input,PIN_5,1,B1_N0,PIN_5,,,,
+x16_o0,Output,PIN_133,3,B3_N2,PIN_133,,,,
+x16_o1,Output,PIN_134,3,B3_N2,PIN_134,,,,
+x16_o2,Output,PIN_135,3,B3_N2,PIN_135,,,,
+x16_o3,Output,PIN_136,3,B3_N2,PIN_136,,,,
+x16_o4,Output,PIN_137,3,B3_N2,PIN_137,,,,
+x16_o5,Output,PIN_138,3,B3_N2,PIN_138,,,,
+x16_o6,Output,PIN_139,3,B3_N2,PIN_139,,,,
+x16_o7,Output,PIN_140,3,B3_N2,PIN_140,,,,

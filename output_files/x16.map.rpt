@@ -1,5 +1,5 @@
 Analysis & Synthesis report for x16
-Fri Jun  3 18:55:10 2016
+Thu Jun  9 18:38:29 2016
 Quartus II 32-bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
 
 
@@ -41,13 +41,13 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                   ;
 +-----------------------------+--------------------------------------------------+
-; Analysis & Synthesis Status ; Successful - Fri Jun  3 18:55:10 2016            ;
+; Analysis & Synthesis Status ; Successful - Thu Jun  9 18:38:29 2016            ;
 ; Quartus II 32-bit Version   ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version ;
 ; Revision Name               ; x16                                              ;
 ; Top-level Entity Name       ; x16                                              ;
 ; Family                      ; Cyclone                                          ;
-; Total logic elements        ; 7                                                ;
-; Total pins                  ; 12                                               ;
+; Total logic elements        ; 23                                               ;
+; Total pins                  ; 18                                               ;
 ; Total virtual pins          ; 0                                                ;
 ; Total memory bits           ; 0                                                ;
 ; Total PLLs                  ; 0                                                ;
@@ -153,56 +153,63 @@ applicable agreement for further details.
 +----------------------------+-------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                 ;
-+----------------------------------+-----------------+------------------------------------+------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path       ; Library ;
-+----------------------------------+-----------------+------------------------------------+------------------------------------+---------+
-; x16.bdf                          ; yes             ; User Block Diagram/Schematic File  ; /home/014/a0146027/quartus/x16.bdf ;         ;
-+----------------------------------+-----------------+------------------------------------+------------------------------------+---------+
++----------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                   ;
++----------------------------------+-----------------+------------------------------------+------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path                         ; Library ;
++----------------------------------+-----------------+------------------------------------+------------------------------------------------------+---------+
+; x16.bdf                          ; yes             ; User Block Diagram/Schematic File  ; /home/014/a0146027/quartus/x16.bdf                   ;         ;
+; x16_lib.bdf                      ; yes             ; User Block Diagram/Schematic File  ; /home/014/a0146027/quartus/x16_lib.bdf               ;         ;
+; output_files/Count127.bdf        ; yes             ; User Block Diagram/Schematic File  ; /home/014/a0146027/quartus/output_files/Count127.bdf ;         ;
+; output_files/select.bdf          ; yes             ; User Block Diagram/Schematic File  ; /home/014/a0146027/quartus/output_files/select.bdf   ;         ;
++----------------------------------+-----------------+------------------------------------+------------------------------------------------------+---------+
 
 
-+------------------------------------------------------+
-; Analysis & Synthesis Resource Usage Summary          ;
-+---------------------------------------------+--------+
-; Resource                                    ; Usage  ;
-+---------------------------------------------+--------+
-; Total logic elements                        ; 7      ;
-;     -- Combinational with no register       ; 7      ;
-;     -- Register only                        ; 0      ;
-;     -- Combinational with a register        ; 0      ;
-;                                             ;        ;
-; Logic element usage by number of LUT inputs ;        ;
-;     -- 4 input functions                    ; 7      ;
-;     -- 3 input functions                    ; 0      ;
-;     -- 2 input functions                    ; 0      ;
-;     -- 1 input functions                    ; 0      ;
-;     -- 0 input functions                    ; 0      ;
-;                                             ;        ;
-; Logic elements by mode                      ;        ;
-;     -- normal mode                          ; 7      ;
-;     -- arithmetic mode                      ; 0      ;
-;     -- qfbk mode                            ; 0      ;
-;     -- register cascade mode                ; 0      ;
-;     -- synchronous clear/load mode          ; 0      ;
-;     -- asynchronous clear/load mode         ; 0      ;
-;                                             ;        ;
-; Total registers                             ; 0      ;
-; I/O pins                                    ; 12     ;
-; Maximum fan-out node                        ; x16_i3 ;
-; Maximum fan-out                             ; 7      ;
-; Total fan-out                               ; 36     ;
-; Average fan-out                             ; 1.89   ;
-+---------------------------------------------+--------+
++-----------------------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary                           ;
++---------------------------------------------+-------------------------+
+; Resource                                    ; Usage                   ;
++---------------------------------------------+-------------------------+
+; Total logic elements                        ; 23                      ;
+;     -- Combinational with no register       ; 15                      ;
+;     -- Register only                        ; 0                       ;
+;     -- Combinational with a register        ; 8                       ;
+;                                             ;                         ;
+; Logic element usage by number of LUT inputs ;                         ;
+;     -- 4 input functions                    ; 19                      ;
+;     -- 3 input functions                    ; 2                       ;
+;     -- 2 input functions                    ; 0                       ;
+;     -- 1 input functions                    ; 2                       ;
+;     -- 0 input functions                    ; 0                       ;
+;                                             ;                         ;
+; Logic elements by mode                      ;                         ;
+;     -- normal mode                          ; 23                      ;
+;     -- arithmetic mode                      ; 0                       ;
+;     -- qfbk mode                            ; 0                       ;
+;     -- register cascade mode                ; 0                       ;
+;     -- synchronous clear/load mode          ; 0                       ;
+;     -- asynchronous clear/load mode         ; 0                       ;
+;                                             ;                         ;
+; Total registers                             ; 8                       ;
+; I/O pins                                    ; 18                      ;
+; Maximum fan-out node                        ; Count127:inst5245|inst3 ;
+; Maximum fan-out                             ; 12                      ;
+; Total fan-out                               ; 114                     ;
+; Average fan-out                             ; 2.78                    ;
++---------------------------------------------+-------------------------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                   ;
-+----------------------------+-------------+--------------+-------------+------+--------------+--------------+-------------------+------------------+-----------------+------------+---------------------+--------------+
-; Compilation Hierarchy Node ; Logic Cells ; LC Registers ; Memory Bits ; Pins ; Virtual Pins ; LUT-Only LCs ; Register-Only LCs ; LUT/Register LCs ; Carry Chain LCs ; Packed LCs ; Full Hierarchy Name ; Library Name ;
-+----------------------------+-------------+--------------+-------------+------+--------------+--------------+-------------------+------------------+-----------------+------------+---------------------+--------------+
-; |x16                       ; 7 (7)       ; 0            ; 0           ; 12   ; 0            ; 7 (7)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |x16                ; work         ;
-+----------------------------+-------------+--------------+-------------+------+--------------+--------------+-------------------+------------------+-----------------+------------+---------------------+--------------+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                      ;
++----------------------------+-------------+--------------+-------------+------+--------------+--------------+-------------------+------------------+-----------------+------------+------------------------+--------------+
+; Compilation Hierarchy Node ; Logic Cells ; LC Registers ; Memory Bits ; Pins ; Virtual Pins ; LUT-Only LCs ; Register-Only LCs ; LUT/Register LCs ; Carry Chain LCs ; Packed LCs ; Full Hierarchy Name    ; Library Name ;
++----------------------------+-------------+--------------+-------------+------+--------------+--------------+-------------------+------------------+-----------------+------------+------------------------+--------------+
+; |x16                       ; 23 (0)      ; 8            ; 0           ; 18   ; 0            ; 15 (0)       ; 0 (0)             ; 8 (0)            ; 0 (0)           ; 0 (0)      ; |x16                   ; work         ;
+;    |Count127:inst5245|     ; 4 (4)       ; 4            ; 0           ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 4 (4)            ; 0 (0)           ; 0 (0)      ; |x16|Count127:inst5245 ; work         ;
+;    |Count127:inst|         ; 4 (4)       ; 4            ; 0           ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 4 (4)            ; 0 (0)           ; 0 (0)      ; |x16|Count127:inst     ; work         ;
+;    |x16_lib:inst37|        ; 8 (8)       ; 0            ; 0           ; 0    ; 0            ; 8 (8)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |x16|x16_lib:inst37    ; work         ;
+;    |x16_lib:inst38|        ; 7 (7)       ; 0            ; 0           ; 0    ; 0            ; 7 (7)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |x16|x16_lib:inst38    ; work         ;
++----------------------------+-------------+--------------+-------------+------+--------------+--------------+-------------------+------------------+-----------------+------------+------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
@@ -211,12 +218,12 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 0     ;
+; Total registers                              ; 8     ;
 ; Number of registers using Synchronous Clear  ; 0     ;
 ; Number of registers using Synchronous Load   ; 0     ;
 ; Number of registers using Asynchronous Clear ; 0     ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 0     ;
+; Number of registers using Clock Enable       ; 6     ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
@@ -236,23 +243,35 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus II 32-bit Analysis & Synthesis
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
-    Info: Processing started: Fri Jun  3 18:55:08 2016
+    Info: Processing started: Thu Jun  9 18:38:28 2016
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off x16 -c x16
 Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file x16.bdf
     Info (12023): Found entity 1: x16
+Info (12021): Found 1 design units, including 1 entities, in source file x16_lib.bdf
+    Info (12023): Found entity 1: x16_lib
+Warning (12090): Entity "Dff2" obtained from "output_files/Dff2.bdf" instead of from Quartus II megafunction library
+Info (12021): Found 1 design units, including 1 entities, in source file output_files/Dff2.bdf
+    Info (12023): Found entity 1: Dff2
+Info (12021): Found 1 design units, including 1 entities, in source file output_files/Count127.bdf
+    Info (12023): Found entity 1: Count127
+Info (12021): Found 1 design units, including 1 entities, in source file output_files/select.bdf
+    Info (12023): Found entity 1: select
 Info (12127): Elaborating entity "x16" for the top level hierarchy
+Info (12128): Elaborating entity "x16_lib" for hierarchy "x16_lib:inst38"
 Warning (275008): Primitive "AND4" of instance "and1000" not used
+Info (12128): Elaborating entity "Count127" for hierarchy "Count127:inst"
+Info (12128): Elaborating entity "select" for hierarchy "Count127:inst|select:inst"
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 19 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 4 input pins
-    Info (21059): Implemented 8 output pins
-    Info (21061): Implemented 7 logic cells
-Info: Quartus II 32-bit Analysis & Synthesis was successful. 0 errors, 1 warning
+Info (21057): Implemented 41 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 2 input pins
+    Info (21059): Implemented 16 output pins
+    Info (21061): Implemented 23 logic cells
+Info: Quartus II 32-bit Analysis & Synthesis was successful. 0 errors, 2 warnings
     Info: Peak virtual memory: 333 megabytes
-    Info: Processing ended: Fri Jun  3 18:55:10 2016
-    Info: Elapsed time: 00:00:02
+    Info: Processing ended: Thu Jun  9 18:38:29 2016
+    Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 
 

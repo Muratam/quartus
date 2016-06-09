@@ -65,10 +65,10 @@ CHIP  "x16"  ASSIGNED TO AN: EP1C6Q240C8
 Pin Name/Usage               : Location  : Dir.   : I/O Standard      : Voltage : I/O Bank  : User Assignment
 -------------------------------------------------------------------------------------------------------------
 GND*                         : 1         :        :                   :         : 1         :                
-x16_i0                       : 2         : input  : 3.3-V LVTTL       :         : 1         : Y              
-x16_i1                       : 3         : input  : 3.3-V LVTTL       :         : 1         : Y              
-x16_i2                       : 4         : input  : 3.3-V LVTTL       :         : 1         : Y              
-x16_i3                       : 5         : input  : 3.3-V LVTTL       :         : 1         : Y              
+INVCC                        : 2         : input  : 3.3-V LVTTL       :         : 1         : Y              
+GND*                         : 3         :        :                   :         : 1         :                
+GND*                         : 4         :        :                   :         : 1         :                
+GND*                         : 5         :        :                   :         : 1         :                
 GND*                         : 6         :        :                   :         : 1         :                
 GND*                         : 7         :        :                   :         : 1         :                
 GND*                         : 8         :        :                   :         : 1         :                
@@ -91,7 +91,7 @@ GND*                         : 23        :        :                   :         
 DATA0                        : 25        : input  :                   :         : 1         :                
 nCONFIG                      : 26        :        :                   :         : 1         :                
 VCCA_PLL1                    : 27        : power  :                   : 1.5V    :           :                
-GND+                         : 28        :        :                   :         : 1         :                
+PINCLK                       : 28        : input  : 3.3-V LVTTL       :         : 1         : Y              
 GND+                         : 29        :        :                   :         : 1         :                
 GNDA_PLL1                    : 30        : gnd    :                   :         :           :                
 GNDG_PLL1                    : 31        : gnd    :                   :         :           :                
@@ -186,24 +186,24 @@ GND*                         : 119       :        :                   :         
 GND*                         : 120       :        :                   :         : 4         :                
 GND*                         : 121       :        :                   :         : 3         :                
 GND*                         : 122       :        :                   :         : 3         :                
-GND*                         : 123       :        :                   :         : 3         :                
-GND*                         : 124       :        :                   :         : 3         :                
-GND*                         : 125       :        :                   :         : 3         :                
-GND*                         : 126       :        :                   :         : 3         :                
-GND*                         : 127       :        :                   :         : 3         :                
-GND*                         : 128       :        :                   :         : 3         :                
+pin_name9                    : 123       : output : 3.3-V LVTTL       :         : 3         : Y              
+pin_name10                   : 124       : output : 3.3-V LVTTL       :         : 3         : Y              
+pin_name11                   : 125       : output : 3.3-V LVTTL       :         : 3         : Y              
+pin_name12                   : 126       : output : 3.3-V LVTTL       :         : 3         : Y              
+pin_name13                   : 127       : output : 3.3-V LVTTL       :         : 3         : Y              
+pin_name14                   : 128       : output : 3.3-V LVTTL       :         : 3         : Y              
 GND                          : 129       : gnd    :                   :         :           :                
 VCCIO3                       : 130       : power  :                   : 3.3V    : 3         :                
-GND*                         : 131       :        :                   :         : 3         :                
-GND*                         : 132       :        :                   :         : 3         :                
-x16_o0                       : 133       : output : 3.3-V LVTTL       :         : 3         : Y              
-x16_o1                       : 134       : output : 3.3-V LVTTL       :         : 3         : Y              
-x16_o2                       : 135       : output : 3.3-V LVTTL       :         : 3         : Y              
-x16_o3                       : 136       : output : 3.3-V LVTTL       :         : 3         : Y              
-x16_o4                       : 137       : output : 3.3-V LVTTL       :         : 3         : Y              
-x16_o5                       : 138       : output : 3.3-V LVTTL       :         : 3         : Y              
-x16_o6                       : 139       : output : 3.3-V LVTTL       :         : 3         : Y              
-x16_o7                       : 140       : output : 3.3-V LVTTL       :         : 3         : Y              
+pin_name15                   : 131       : output : 3.3-V LVTTL       :         : 3         : Y              
+pin_name16                   : 132       : output : 3.3-V LVTTL       :         : 3         : Y              
+pin_name1                    : 133       : output : 3.3-V LVTTL       :         : 3         : Y              
+pin_name2                    : 134       : output : 3.3-V LVTTL       :         : 3         : Y              
+pin_name3                    : 135       : output : 3.3-V LVTTL       :         : 3         : Y              
+pin_name4                    : 136       : output : 3.3-V LVTTL       :         : 3         : Y              
+pin_name5                    : 137       : output : 3.3-V LVTTL       :         : 3         : Y              
+pin_name6                    : 138       : output : 3.3-V LVTTL       :         : 3         : Y              
+pin_name7                    : 139       : output : 3.3-V LVTTL       :         : 3         : Y              
+pin_name8                    : 140       : output : 3.3-V LVTTL       :         : 3         : Y              
 GND*                         : 141       :        :                   :         : 3         :                
 GND                          : 142       : gnd    :                   :         :           :                
 GND*                         : 143       :        :                   :         : 3         :                

@@ -61,17 +61,26 @@ set_global_assignment -name EDA_TEST_BENCH_NAME test1 -section_id eda_simulation
 set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id test1
 set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME test1 -section_id test1
 set_global_assignment -name EDA_TEST_BENCH_FILE /home/014/a0146027/quartus/simulation/modelsim/x16_test1.vt -section_id test1
-set_location_assignment PIN_2 -to x16_i0
-set_location_assignment PIN_3 -to x16_i1
-set_location_assignment PIN_133 -to x16_o0
-set_location_assignment PIN_134 -to x16_o1
-set_location_assignment PIN_135 -to x16_o2
-set_location_assignment PIN_136 -to x16_o3
-set_location_assignment PIN_137 -to x16_o4
-set_location_assignment PIN_138 -to x16_o5
-set_location_assignment PIN_139 -to x16_o6
-set_location_assignment PIN_140 -to x16_o7
-set_location_assignment PIN_4 -to x16_i2
-set_location_assignment PIN_5 -to x16_i3
+set_global_assignment -name BDF_FILE x16_lib.bdf
+set_location_assignment PIN_135 -to pin_name3
+set_location_assignment PIN_134 -to pin_name2
+set_location_assignment PIN_133 -to pin_name1
+set_location_assignment PIN_136 -to pin_name4
+set_location_assignment PIN_137 -to pin_name5
+set_location_assignment PIN_138 -to pin_name6
+set_location_assignment PIN_139 -to pin_name7
+set_location_assignment PIN_140 -to pin_name8
+set_location_assignment PIN_123 -to pin_name9
+set_global_assignment -name BDF_FILE output_files/Dff2.bdf
+set_global_assignment -name BDF_FILE output_files/Count127.bdf
+set_location_assignment PIN_28 -to PINCLK
+set_location_assignment PIN_2 -to INVCC
+set_location_assignment PIN_124 -to pin_name10
+set_location_assignment PIN_125 -to pin_name11
+set_location_assignment PIN_126 -to pin_name12
+set_location_assignment PIN_127 -to pin_name13
+set_location_assignment PIN_128 -to pin_name14
+set_location_assignment PIN_131 -to pin_name15
+set_location_assignment PIN_132 -to pin_name16
+set_global_assignment -name BDF_FILE output_files/select.bdf
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
-set_global_assignment -name BDF_FILE /home/014/a0146027/quartus/lec2_10.bdf

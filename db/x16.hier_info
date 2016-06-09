@@ -1,4 +1,164 @@
 |x16
+pin_name1 <= x16_lib:inst38.x16_o0
+INVCC => Count127:inst5245.INVCC
+PINCLK => Count127:inst5245.PINCLK
+PINCLK => Count127:inst.PINCLK
+pin_name2 <= x16_lib:inst38.x16_o1
+pin_name3 <= x16_lib:inst38.x16_o2
+pin_name4 <= x16_lib:inst38.x16_o3
+pin_name5 <= x16_lib:inst38.x16_o4
+pin_name6 <= x16_lib:inst38.x16_o5
+pin_name7 <= x16_lib:inst38.x16_o6
+pin_name8 <= x16_lib:inst38.x16_o7
+pin_name9 <= x16_lib:inst37.x16_o0
+pin_name10 <= x16_lib:inst37.x16_o1
+pin_name11 <= x16_lib:inst37.x16_o2
+pin_name12 <= x16_lib:inst37.x16_o3
+pin_name13 <= x16_lib:inst37.x16_o4
+pin_name14 <= x16_lib:inst37.x16_o5
+pin_name15 <= x16_lib:inst37.x16_o6
+pin_name16 <= x16_lib:inst37.x16_o7
+
+
+|x16|x16_lib:inst38
+x16_o0 <= nor7.DB_MAX_OUTPUT_PORT_TYPE
+x16_i0 => and0000.IN0
+x16_i0 => and0001.IN0
+x16_i0 => and0111.IN0
+x16_i0 => inst.IN0
+x16_i0 => and0011.IN0
+x16_i0 => and0010.IN0
+x16_i0 => and0100.IN0
+x16_i0 => and0101.IN0
+x16_i0 => and0110.IN0
+x16_i1 => and0000.IN1
+x16_i1 => and0001.IN1
+x16_i1 => inst4.IN0
+x16_i1 => and0011.IN1
+x16_i1 => and0010.IN1
+x16_i1 => and1001.IN1
+x16_i1 => and1010.IN1
+x16_i1 => and1011.IN1
+x16_i2 => and0000.IN2
+x16_i2 => and0001.IN2
+x16_i2 => inst5.IN0
+x16_i2 => and1100.IN2
+x16_i2 => and1101.IN2
+x16_i2 => and0100.IN2
+x16_i2 => and0101.IN2
+x16_i2 => and1001.IN2
+x16_i3 => and0000.IN3
+x16_i3 => inst7.IN0
+x16_i3 => and1100.IN3
+x16_i3 => and0010.IN3
+x16_i3 => and0100.IN3
+x16_i3 => and1010.IN3
+x16_i3 => and1110.IN3
+x16_i3 => and0110.IN3
+x16_o1 <= nor7.DB_MAX_OUTPUT_PORT_TYPE
+x16_o2 <= nor1.DB_MAX_OUTPUT_PORT_TYPE
+x16_o3 <= nor2.DB_MAX_OUTPUT_PORT_TYPE
+x16_o4 <= nor3.DB_MAX_OUTPUT_PORT_TYPE
+x16_o5 <= nor4.DB_MAX_OUTPUT_PORT_TYPE
+x16_o6 <= nor5.DB_MAX_OUTPUT_PORT_TYPE
+x16_o7 <= nor6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|x16|Count127:inst
+O1 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+PINCLK => inst3.CLK
+PINCLK => inst7.CLK
+PINCLK => inst9.CLK
+PINCLK => inst8.CLK
+INVCC => select:inst.IN
+INVCC => select:inst22.IN
+INVCC => select:inst24.IN
+INVCC => select:inst23.IN
+O2 <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+O3 <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+O4 <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|x16|Count127:inst|select:inst
+out <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+IN => inst2.IN0
+IN => inst.IN0
+Pre => inst3.IN1
+Next => inst.IN1
+
+
+|x16|Count127:inst|select:inst22
+out <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+IN => inst2.IN0
+IN => inst.IN0
+Pre => inst3.IN1
+Next => inst.IN1
+
+
+|x16|Count127:inst|select:inst24
+out <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+IN => inst2.IN0
+IN => inst.IN0
+Pre => inst3.IN1
+Next => inst.IN1
+
+
+|x16|Count127:inst|select:inst23
+out <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+IN => inst2.IN0
+IN => inst.IN0
+Pre => inst3.IN1
+Next => inst.IN1
+
+
+|x16|Count127:inst5245
+O1 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+PINCLK => inst3.CLK
+PINCLK => inst7.CLK
+PINCLK => inst9.CLK
+PINCLK => inst8.CLK
+INVCC => select:inst.IN
+INVCC => select:inst22.IN
+INVCC => select:inst24.IN
+INVCC => select:inst23.IN
+O2 <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+O3 <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+O4 <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|x16|Count127:inst5245|select:inst
+out <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+IN => inst2.IN0
+IN => inst.IN0
+Pre => inst3.IN1
+Next => inst.IN1
+
+
+|x16|Count127:inst5245|select:inst22
+out <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+IN => inst2.IN0
+IN => inst.IN0
+Pre => inst3.IN1
+Next => inst.IN1
+
+
+|x16|Count127:inst5245|select:inst24
+out <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+IN => inst2.IN0
+IN => inst.IN0
+Pre => inst3.IN1
+Next => inst.IN1
+
+
+|x16|Count127:inst5245|select:inst23
+out <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+IN => inst2.IN0
+IN => inst.IN0
+Pre => inst3.IN1
+Next => inst.IN1
+
+
+|x16|x16_lib:inst37
 x16_o0 <= nor7.DB_MAX_OUTPUT_PORT_TYPE
 x16_i0 => and0000.IN0
 x16_i0 => and0001.IN0
